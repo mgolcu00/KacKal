@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Black">#000000</color>
+
+    <!--    BMI COLORS-->
+    <color name="BMI_good_green">#4dd599</color><!-- 02a8a8 -->
+    <color name="BMI_meh_orange">#ffdc34</color>
+    <color name="BMI_bad_red">#d92027</color>
+
+    <!--    CustomProgressBar Colors-->
+    <!--    <color name="DCN_kcal_header">#6f4a8e</color>-->
+    <!--    <color name="DCN_pb_text_color">#018383</color>-->
+
+    <color name="home_headers">#fa26a0</color>
+    <color name="spinner_orange">#ff5f40</color>
+    <color name="DCN_primary_Dark">#202040</color>
+    <color name="DCN_primary">#543864</color>
+    <color name="DCN_primary_light">#ff6363</color>
+    <color name="DCN_accent">#ffbd69</color>
+
+
+    <color name="water_color_primary">#00adb5</color>
+    <color name="water_color_primary_light">#46cdcf</color>
+    <color name="water_color_primary_dark">#3d84a8</color>
+    <color name="water_color_accent">#ff5f40</color>
+    <color name="white" >@android:color/white</color>
+    <!--    <color name="DCN_kcal_header">#202040</color>-->
+    <!--    <color name="DCN_pb_start"></color>-->
+    <!--    <color name="DCN_pb_end"></color>-->
+    <!--    <color name="DCN_pb_text"></color>-->
+    <!--    <color name="DCN_daily_need_text"></color>-->
+    <!--    <color name="DCN_daily_need_value"></color>-->
+    <!--    <color name="DCN_daily_vartical_line"></color>-->
+    <!--    <color name="DCN_pb_text_color">#018383</color>-->
+
+</resources>

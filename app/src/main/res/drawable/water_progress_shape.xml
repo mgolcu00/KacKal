@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the background properties like color etc -->
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/ic_measuring_cup_base_512" />
+    <item android:id="@android:id/progress">
+        <clip
+            android:clipOrientation="vertical"
+            android:drawable="@drawable/ic_measuring_cup_fill_512"
+            android:gravity="bottom" />
+    </item>
+</layer-list>

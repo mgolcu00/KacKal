@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/edits_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/custom_design_edittext"
+                android:gravity="center"
+                android:hint="isim"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:nextFocusDown="@id/edit_opening_surname"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="soyisim"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLines="1"
+                android:nextFocusDown="@id/edit_opening_height"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="boy (cm)"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="kilo (kg)"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="yaş"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+            <RadioGroup
+                android:id="@+id/set_radio_group_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/custom_design_edittext"
+                android:padding="8dp">
+
+                <RadioButton
+                    android:id="@+id/set_radio_button_female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/custom_design_edittext"
+                    android:padding="8dp"
+                    android:tag="F"
+                    android:text="Female"
+                    android:textSize="22sp" />
+
+                <RadioButton
+                    android:id="@+id/set_radio_button_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/custom_design_edittext"
+                    android:padding="8dp"
+                    android:tag="M"
+                    android:text="Male"
+                    android:textSize="22sp" />
+
+            </RadioGroup>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_design_edittext"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Extra almak istediğiniz kalori miktarı"
+                android:textSize="24sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_extra_kcal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="500 kcal"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_design_edittext"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Azaltmak istediğiniz kalori miktarı"
+                android:textSize="24sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_decline_kcal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="500 kcal"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/custom_design_edittext"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="E-Mail adresinizi belirtebilirsiniz "
+                android:textSize="24sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/set_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_design_edittext"
+                android:hint="e-mail"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/set_reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:background="@color/BMI_bad_red"
+            android:padding="8dp"
+            android:text="Reset"
+            android:textColor="@color/DCN_accent"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/set_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Save"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="48sp" />
+    </LinearLayout>
+</ScrollView>
+
+

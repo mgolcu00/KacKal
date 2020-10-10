@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "246711083381",
+    "firebase_url": "https://kackal-bb2b7.firebaseio.com",
+    "project_id": "kackal-bb2b7",
+    "storage_bucket": "kackal-bb2b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246711083381:android:4db0248f594fcb50acf33c",
+        "android_client_info": {
+          "package_name": "com.mert.kackal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246711083381-61vukvqrncn2op2hm3l3bk52afu5bcnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mert.kackal",
+            "certificate_hash": "523043fa73ce37c543e65f758be7b4410fefbf5a"
+          }
+        },
+        {
+          "client_id": "246711083381-7h1341e6dpfmk816d91qa6svfhrasdbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_0SQ5ehhJuotuqQFLG66YSNUbjvTNQQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246711083381-7h1341e6dpfmk816d91qa6svfhrasdbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
